@@ -11,7 +11,7 @@ import KollatzRow
 
 main :: IO ()
 main =
-  let row = chain 13 in
-  print row
+--  let row = chain 13 in
+  print findLongerThanFifteen
 
 
