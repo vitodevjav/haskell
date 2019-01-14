@@ -8,10 +8,11 @@ import WhereAndLet
 import QuickSort
 import PartialApply
 import KollatzRow
+import Lambda
 
 main :: IO ()
 main =
---  let row = chain 13 in
-  print findLongerThanFifteen
+  let a = [1,2,3] in
+  print (myMap (plus 3) a)
 
 
