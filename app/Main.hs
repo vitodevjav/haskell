@@ -13,6 +13,6 @@ import Lambda
 main :: IO ()
 main =
   let a = [1,2,3] in
-  print (myMap (plus 3) a)
+  print (myMaximum a)
 
 
