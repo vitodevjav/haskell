@@ -9,10 +9,11 @@ import QuickSort
 import PartialApply
 import KollatzRow
 import Lambda
+import Shape
 
 main :: IO ()
 main =
-  let a = [1,2,3] in
-  print (myMaximum a)
+  let point = Point 2 3; shape = Circle point 3  in
+  print (shape)
 
 
