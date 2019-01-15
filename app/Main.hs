@@ -14,6 +14,7 @@ import MyList
 
 main :: IO ()
 main =
-  print $ Cons 2 $ Cons 1 Empty
+  let a = Cons 2 $ Cons 1 Empty; b = Cons 3 $ Cons 5 Empty in
+  print $ a ^++ b
 
 
