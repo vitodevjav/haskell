@@ -10,10 +10,10 @@ import PartialApply
 import KollatzRow
 import Lambda
 import Shape
+import MyList
 
 main :: IO ()
 main =
-  let point = Point 2 3; shape = Circle point 3  in
-  print (shape)
+  print $ Cons 2 $ Cons 1 Empty
 
 

@@ -1,4 +1,7 @@
-module Shape where
+module Shape (
+  Point(..),
+  Shape(..),
+ ) where
 
 data Point = Point Double Double
   deriving Show
